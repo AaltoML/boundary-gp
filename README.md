@@ -6,6 +6,9 @@ Codes for the paper:
 
 * Arno Solin and Manon Kok (2019). **Know your boundaries: Constraining Gaussian processes by variational harmonic features.** In *Proceedings of the 22nd International Conference on Artificial Intelligence and Statistics (AISTATS)*. Naha, Okinawa, Japan. [[arXiv]](https://arxiv.org/abs/1904.05207) [[poster]](https://users.aalto.fi/~asolin/documents/pdf/Solin-Kok-2019-AISTATS-poster.pdf)
 
+![Banana classification example with hard decision boundary](./banana.png)
+*The effect of increasing the number of inducing features for the banana classification dataset with a hard decision boundary. In each pane, the coloured points represent training data and the decision boundaries are black lines. The outermost line is the pre-defined hard decision boundary.*
+
 ## Summary
 
 We consider constraining GPs to arbitrarily-shaped domains with boundary conditions. We solve a Fourier-like generalised harmonic feature representation of the GP prior in the domain of interest, which both constrains the GP and attains a low-rank representation that is used for speeding up inference. The method scales as O(nm^2) in prediction and O(m^3) in hyperparameter learning for regression, where n is the number of data points and m the number of features. Furthermore, we make use of the variational approach to allow the method to deal with non-Gaussian likelihoods. This repository contains the Matlab codes for constructing the basis functions in arbitrarily-shaped domains, code for simulating constrained GP random draws, and code for solving GP regression. We also provide code in Python for for constructing the basis functions in arbitrarily-shaped domains and doing variational inference for non-Gaussian likelihoods.
