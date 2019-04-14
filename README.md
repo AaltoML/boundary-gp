@@ -4,7 +4,7 @@
 
 Codes for the paper:
 
-* Arno Solin and Manon Kok (2019). **Know your boundaries: Constraining Gaussian processes by variational harmonic features.** In *Proceedings of the 22nd International Conference on Artificial Intelligence and Statistics (AISTATS)*. Naha, Okinawa, Japan. [arXiv](https://arxiv.org/abs/1904.05207)
+* Arno Solin and Manon Kok (2019). **Know your boundaries: Constraining Gaussian processes by variational harmonic features.** In *Proceedings of the 22nd International Conference on Artificial Intelligence and Statistics (AISTATS)*. Naha, Okinawa, Japan. [[arXiv]](https://arxiv.org/abs/1904.05207) [[poster]](https://users.aalto.fi/~asolin/documents/pdf/Solin-Kok-2019-AISTATS-poster.pdf)
 
 ## Summary
 
