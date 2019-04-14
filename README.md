@@ -24,10 +24,10 @@ There are some examples in the `experiments` directory that give some intuition 
 
 ### Install
 
-The boundary GP Python codes for non-Gaussian likelihoods relies heavily on [GPflow](github.com/GPflow/GPflow). After installing GPflow, clone this repo and add the `DGP` directory to your `PYTHONPATH` or `JUPYTER_PATH`. For example, to make sure you can run the Jupiter notebook examples, consider doing this:
+The boundary GP Python codes for non-Gaussian likelihoods relies heavily on [GPflow](github.com/GPflow/GPflow). After installing GPflow, clone this repo and add the `DGP` directory to your `PYTHONPATH`. For example, to make sure you can run the Jupiter notebook examples, consider doing this:
 
 ```bash
-  export JUPYTER_PATH="${JUPYTER_PATH}:/path/to/codes/DGP"
+export PYTHONPATH="${PYTHONPATH}:/path/to/codes/python"
 ```
 
 ## License
